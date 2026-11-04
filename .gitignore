@@ -1,0 +1,28 @@
+# Dependencias y registros locales
+**/vendor/
+**/logs/*
+!**/logs/.htaccess
+*.log
+
+# Configuracion privada: solo las plantillas se versionan
+.env
+.env.*
+!.env.example
+**/database.local.php
+**/secrets.h*
+**/TOKEN*.txt
+**/token*.txt
+**/passwd
+**/passwd.*
+**/pwfile
+**/passwords
+**/passwords.*
+
+# Salidas de nuevas ejecuciones; las evidencias anteriores se conservan
+**/tests/*_results.local.csv
+
+# IDE y copias
+.vscode/
+.idea/
+*.bak
+*.zip

@@ -1,0 +1,7 @@
+* text=auto
+*.php text eol=lf
+*.ino text eol=lf
+*.h text eol=lf
+*.sql text eol=lf
+*.ps1 text eol=crlf
+*.png binary
