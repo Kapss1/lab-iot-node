@@ -1,0 +1,6 @@
+Options -Indexes
+RewriteEngine On
+# Preserve Bearer authentication, including CGI/FastCGI PHP installations.
+RewriteCond %{HTTP:Authorization} .+
+RewriteRule ^ - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteRule ^api/v1(?:/.*)?$ index.php [L,QSA]
