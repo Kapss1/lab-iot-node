@@ -1,0 +1,24 @@
+{
+  "edge_id": "edge-lab-iot-01",
+  "mqtt_host": "127.0.0.1",
+  "mqtt_port": 18883,
+  "mqtt_client_id": "lab3-fernando-demo",
+  "mqtt_topic": "telecom/lab1/+/telemetry",
+  "mqtt_tls": false,
+  "nodes": [
+    "ESP32_ArequipaSimu",
+    "ESP32_Nodo02",
+    "ESP32_Nodo03"
+  ],
+  "window_seconds": 30,
+  "slide_seconds": 10,
+  "temperature_on": 30.0,
+  "temperature_off": 28.0,
+  "backend_url": "http://127.0.0.1/lab-iot-node/backend/public/api/v1/edge/ingest",
+  "http_timeout_seconds": 3,
+  "retry_base_seconds": 2,
+  "retry_max_seconds": 30,
+  "database": "data/edge_fernando_demo.sqlite3",
+  "metrics_host": "127.0.0.1",
+  "metrics_port": 8765
+}

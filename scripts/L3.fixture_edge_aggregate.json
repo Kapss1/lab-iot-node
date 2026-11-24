@@ -1,0 +1,40 @@
+{
+  "count": 1,
+  "edge_id": "edge-lab-iot-01",
+  "event_id": "3172738985c94849fb8765d55ce5931bd019430c4c92d06ec59f8973f7f3fbdb",
+  "last_rssi": -55,
+  "last_sample_ts": 1795488539,
+  "node_id": "ESP32_Nodo03",
+  "seq_max": 1401623000,
+  "seq_min": 1401623000,
+  "stats": {
+    "humedad": {
+      "max": 60.0,
+      "mean": 60.0,
+      "min": 60.0
+    },
+    "lux": {
+      "max": 350.0,
+      "mean": 350.0,
+      "min": 350.0
+    },
+    "particulas": {
+      "max": 120.5,
+      "mean": 120.5,
+      "min": 120.5
+    },
+    "temperatura": {
+      "max": 32.0,
+      "mean": 32.0,
+      "min": 32.0
+    }
+  },
+  "type": "aggregate",
+  "window": {
+    "clock": "edge_received_at",
+    "end": 1795488540,
+    "seconds": 30,
+    "slide_seconds": 10,
+    "start": 1795488510
+  }
+}
